@@ -1,0 +1,385 @@
+[
+  {
+    "id": "jose_vega",
+    "rels": {
+      "spouses": ["grazia_padgett"],
+      "father": "jose_vega_sr",
+      "mother": "america_raquel"
+    },
+    "data": {
+      "first name": "José Carlos",
+      "last name": "Vega Ráquel",
+      "birthday": "1987",
+      "gender": "M",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Jose"
+    }
+  },
+  {
+    "id": "grazia_padgett",
+    "data": {
+      "first name": "Grazia María",
+      "last name": "Padgett Aguilar",
+      "birthday": "1989",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Grace"
+    },
+    "rels": {
+      "spouses": ["jose_vega"],
+      "father": "carlos_padgett",
+      "mother": "lizeth_padgett"
+    }
+  },
+  {
+    "id": "america_raquel",
+    "data": {
+      "first name": "América",
+      "last name": "Ráquel Quan",
+      "birthday": "1961",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=America"
+    },
+    "rels": {
+      "spouses": ["jose_vega_sr"],
+      "children": ["jose_vega"],
+      "mother": "amparo_quan"
+    }
+  },
+  {
+    "id": "jose_vega_sr",
+    "data": {
+      "rip": "✝",
+      "first name": "José Wilfredo",
+      "last name": "Vega Flores",
+      "birthday": "1960",
+      "gender": "M",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Jose2"
+    },
+    "rels": {
+      "spouses": ["america_raquel"],
+      "children": ["jose_vega"]
+    }
+  },
+  {
+    "id": "amparo_raquel",
+    "data": {
+      "first name": "Amparo",
+      "last name": "Ráquel Quan",
+      "birthday": "1961",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=AmparoR"
+    },
+    "rels": {
+      "spouses": ["mario_pineda"],
+      "mother": "amparo_quan",
+      "children": [
+        "amparo_pineda",
+        "andrea_pineda",
+        "alejandra_pineda",
+        "adriana_pineda"
+      ]
+    }
+  },
+  {
+    "id": "adolfo_raquel",
+    "data": {
+      "first name": "Adolfo",
+      "last name": "Ráquel Quan",
+      "birthday": "1958",
+      "gender": "M",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Adolfo"
+    },
+    "rels": {
+      "mother": "amparo_quan",
+      "spouses": ["xenia_pineda"],
+      "children": ["adolfo_raquel_jr", "xenia_raquel"]
+    }
+  },
+  {
+    "id": "xenia_pineda",
+    "data": {
+      "first name": "Xenia María",
+      "last name": "Pineda",
+      "birthday": "1961",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Xenia"
+    },
+    "rels": {
+      "spouses": ["adolfo_raquel"],
+      "children": ["adolfo_raquel_jr", "xenia_raquel"]
+    }
+  },
+  {
+    "id": "adolfo_raquel_jr",
+    "data": {
+      "first name": "Adolfo",
+      "last name": "Ráquel Pineda",
+      "birthday": "1989",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Adolfo"
+    },
+    "rels": {
+      "mother": "xenia_pineda",
+      "father": "adolfo_raquel",
+      "spouses": ["andrea_lupiac"],
+      "children": ["luciana_raquel"]
+    }
+  },
+  {
+    "id": "andrea_lupiac",
+    "data": {
+      "first name": "Andrea",
+      "last name": "Lupiac",
+      "birthday": "1989",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Andrea"
+    },
+    "rels": {
+      "spouses": ["adolfo_raquel_jr"],
+      "children": ["luciana_raquel"]
+    }
+  },
+  {
+    "id": "luciana_raquel",
+    "data": {
+      "first name": "Luciana",
+      "last name": "Ráquel",
+      "birthday": "2022",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Luciana"
+    },
+    "rels": {
+      "mother": "andrea_lupiac",
+      "father": "adolfo_raquel_jr"
+    }
+  },
+  {
+    "id": "xenia_raquel",
+    "data": {
+      "first name": "Xenia María",
+      "last name": "Ráquel Pineda",
+      "birthday": "1990",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Xenia"
+    },
+    "rels": {
+      "mother": "xenia_pineda",
+      "father": "adolfo_raquel"
+    }
+  },
+  {
+    "id": "amparo_quan",
+    "data": {
+      "first name": "Amparo",
+      "last name": "Quan Rodriguez",
+      "birthday": "1933",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=AmparoR"
+    },
+    "rels": {
+      "children": ["america_raquel", "amparo_raquel", "adolfo_raquel"]
+    }
+  },
+  {
+    "id": "mario_pineda",
+    "data": {
+      "first name": "Mario Alfonso",
+      "last name": "Pineda",
+
+      "gender": "M",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Mario"
+    },
+    "rels": {
+      "spouses": ["amparo_raquel"],
+      "children": [
+        "amparo_pineda",
+        "andrea_pineda",
+        "alejandra_pineda",
+        "adriana_pineda"
+      ]
+    }
+  },
+  {
+    "id": "amparo_pineda",
+    "data": {
+      "first name": "Amparo",
+      "last name": "Pineda Ráquel",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=AmparoR"
+    },
+    "rels": {
+      "mother": "amparo_raquel",
+      "father": "mario_pineda",
+      "spouses": ["stephane_bukk"],
+      "children": ["ines_bukk", "mia_bukk"]
+    }
+  },
+  {
+    "id": "stephane_bukk",
+    "data": {
+      "first name": "Stephane",
+      "last name": "Bukk",
+      "gender": "M",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Stephane"
+    },
+    "rels": {
+      "spouses": ["amparo_pineda"],
+      "children": ["ines_bukk", "mia_bukk"]
+    }
+  },
+  {
+    "id": "ines_bukk",
+    "data": {
+      "first name": "Ines",
+      "last name": "Bukk",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Ines"
+    },
+    "rels": {
+      "mother": "amparo_pineda",
+      "father": "stephane_bukk"
+    }
+  },
+  {
+    "id": "mia_bukk",
+    "data": {
+      "first name": "Mia",
+      "last name": "Bukk",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Mia"
+    },
+    "rels": {
+      "mother": "amparo_pineda",
+      "father": "stephane_bukk"
+    }
+  },
+  {
+    "id": "andrea_pineda",
+    "data": {
+      "first name": "Andrea",
+      "last name": "Pineda Ráquel",
+      "birthday": "1984",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Andrea"
+    },
+    "rels": {
+      "mother": "amparo_raquel",
+      "father": "mario_pineda"
+    }
+  },
+  {
+    "id": "alejandra_pineda",
+    "data": {
+      "first name": "Alejandra",
+      "last name": "Pineda Ráquel",
+      "birthday": "1985",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Alejandra"
+    },
+    "rels": {
+      "mother": "amparo_raquel",
+      "father": "mario_pineda"
+    }
+  },
+  {
+    "id": "adriana_pineda",
+    "data": {
+      "first name": "Adriana",
+      "last name": "Pineda Ráquel",
+      "birthday": "1995",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Adriana"
+    },
+    "rels": {
+      "mother": "amparo_raquel",
+      "father": "mario_pineda"
+    }
+  },
+  {
+    "id": "carlos_padgett",
+    "data": {
+      "first name": "Carlos Roberto",
+      "last name": "Padgett Lagos",
+      "gender": "M",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Carlos"
+    },
+    "rels": {
+      "spouses": ["lizeth_padgett"],
+      "children": [
+        "grazia_padgett",
+        "carlos_padgett_jr",
+        "alejandro_padgett",
+        "ana_padgett"
+      ]
+    }
+  },
+  {
+    "id": "lizeth_padgett",
+    "data": {
+      "first name": "Lizeth",
+      "last name": "Aguilar",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Lizeth"
+    },
+    "rels": {
+      "spouses": ["carlos_padgett"],
+      "children": [
+        "grazia_padgett",
+        "carlos_padgett_jr",
+        "alejandro_padgett",
+        "ana_padgett"
+      ]
+    }
+  },
+  {
+    "id": "carlos_padgett_jr",
+    "data": {
+      "first name": "Carlos Roberto",
+      "last name": "Padgett Aguilar",
+      "gender": "M",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Carlos"
+    },
+    "rels": {
+      "spouses": ["sara_carrasco"],
+      "father": "carlos_padgett",
+      "mother": "lizeth_padgett"
+    }
+  },
+  {
+    "id": "sara_carrasco",
+    "data": {
+      "first name": "Sara",
+      "last name": "Carrasco",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Sara"
+    },
+    "rels": {
+      "spouses": ["carlos_padgett_jr"]
+    }
+  },
+  {
+    "id": "alejandro_padgett",
+    "data": {
+      "first name": "Alejandro José",
+      "last name": "Padgett Aguilar",
+      "gender": "M",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Alejandro"
+    },
+    "rels": {
+      "father": "carlos_padgett",
+      "mother": "lizeth_padgett"
+    }
+  },
+  {
+    "id": "ana_padgett",
+    "data": {
+      "first name": "Ana",
+      "last name": "Padgett Aguilar",
+      "gender": "F",
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Ana"
+    },
+    "rels": {
+      "father": "carlos_padgett",
+      "mother": "lizeth_padgett"
+    }
+  }
+]
